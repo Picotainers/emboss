@@ -1,5 +1,5 @@
 # emboss
-Small, distroless-when-possible container for `emboss`.
+Small compatibility-focused container for `emboss`.
 
 ## how to use
 ```bash

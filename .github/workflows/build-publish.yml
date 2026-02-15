@@ -1,4 +1,4 @@
-name: Build and Publish Distroless emboss
+name: Build and Publish emboss
 
 on:
   push:

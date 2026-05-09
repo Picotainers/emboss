@@ -1,7 +1,18 @@
 # emboss
-Small compatibility-focused container for `emboss`.
+Container image for EMBOSS utilities.
 
-## how to use
+## Quick Usage
+
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/emboss:latest --help
+# Pull the image
+docker pull docker.io/picotainers/emboss:latest
+
+# Run the tool
+docker run --rm docker.io/picotainers/emboss:latest emboss --help
+```
+
+## Usage with mounted data
+
+```bash
+docker run --rm -v "$(pwd):/data" docker.io/picotainers/emboss:latest emboss --help
 ```
